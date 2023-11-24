@@ -14,11 +14,11 @@ int main()
 
     do
     {
-        printf("CÓDIGO   |        FUNÇÃO\n");
-        printf("   1     | Adicionar novo número \n");
-        printf("   2     | Mostrar números cadastrados \n \n");
+        printf("CÃ“DIGO   |        FUNÃ‡ÃƒO\n");
+        printf("   1     | Adicionar novo nÃºmero \n");
+        printf("   2     | Mostrar nÃºmeros cadastrados \n \n");
 
-        printf("Digite o código do que deseja fazer: ");
+        printf("Digite o cÃ³digo do que deseja fazer: ");
         scanf("%d", &codigo);
 
         system("cls || clear");
@@ -47,7 +47,7 @@ int main()
             break;
 
         default:
-            printf("Código inválido!");
+            printf("CÃ³digo invÃ¡lido! \n");
             break;
         }
     } while (codigo != 2);
