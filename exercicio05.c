@@ -16,11 +16,11 @@ int main()
 
     do
     {
-        printf("CÓDIGO   |        FUNÇÃO\n");
+        printf("CÃ“DIGO   |        FUNÃ‡ÃƒO\n");
         printf("   1     | Adicionar nova venda \n");
         printf("   2     | Mostrar total das vendas\n \n");
 
-        printf("Digite o código do que deseja fazer: ");
+        printf("Digite o cÃ³digo do que deseja fazer: ");
         scanf("%d", &codigo);
 
         system("cls || clear");
@@ -33,7 +33,7 @@ int main()
                 printf("Digite o nome do produto: ");
                 gets(produtos[contador]);
 
-                printf("Digite o preço: ");
+                printf("Digite o preÃ§o: ");
                 scanf("%f", &valores[contador]);
 
                 printf("Digite a quantidade: ");
@@ -47,7 +47,7 @@ int main()
             printf("TOTAL DAS VENDAS: \n \n");
             for (i = 0; i < contador; i++)
             {
-               printf("Produto: %-20s | Preço: R$%-10.2f | Quantidade: %-5d | Total de vendas do produto: R$%.2f\n", produtos[i], valores[i], quantidade[i], quantidade[i] * valores[i]); 
+               printf("Produto: %-20s | PreÃ§o: R$%-10.2f | Quantidade: %-5d | Total de vendas do produto: R$%.2f\n", produtos[i], valores[i], quantidade[i], quantidade[i] * valores[i]); 
 
                total_geral += quantidade[i] * valores[i];
             }
@@ -56,7 +56,7 @@ int main()
             break;
 
         default:
-            printf("Código inválido!");
+            printf("CÃ³digo invÃ¡lido! \n");
             break;
         }
     } while (codigo != 2);
