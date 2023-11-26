@@ -42,12 +42,12 @@ int main()
             printf("AGENDA DE CONTATOS: \n \n");
             for (i = 0; i < contador; i++)
             {
-                printf("Nome: %-20s | Telefone: %-20d \n", nomes[i], telefones[i]);
+                printf("Nome: %-20s | Telefone: %d \n", nomes[i], telefones[i]);
             }
             break;
 
         default:
-            printf("Código inválido! \n");
+            printf("Código inválido!");
             break;
         }
     } while (codigo != 2);
