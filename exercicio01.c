@@ -16,7 +16,7 @@ int main()
 
     for (i = 0; i < 5; i++)
     {
-        printf("Digite os dados da %dª pessoa \n \n", i + 1);
+        printf("Digite os dados da %dÂª pessoa \n \n", i + 1);
 
         printf("Insira o nome: ");
         gets(nomes[i]);
@@ -32,10 +32,7 @@ int main()
 
         fflush(stdin);
         system("cls || clear");
-    }
-
-    for (i = 0; i < 5; i++)
-    {
+        
         maior_altura = alturas[i] > maior_altura ? alturas[i] : maior_altura;
         menor_altura = alturas[i] < menor_altura ? alturas[i] : menor_altura;
 
